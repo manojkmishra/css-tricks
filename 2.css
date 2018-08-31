@@ -1,0 +1,14 @@
+/* select elements in css- type selectors  */
+h1{color:orange; text-align: center;}
+p{font-size: 130%}
+
+/* id selector (can be used in one place) */
+#id1{ background-color: yellow}
+
+/* class selector (can be used in many places- inside ids) */
+.class1{ font-size: 200%}
+
+/* Descendant Selectors used to select class inside an id*/
+#id1 .class1{color: red}
+/* Descendant Selectors used to select particular element inside a  class inside an id*/
+#id1 .class1 em{color:green}
