@@ -12,11 +12,21 @@ body {	font-family: Arial, sans-serif;    	background-color: #738294;  /*outside
 #nav li {	
         list-style: none;	/* to remove the bullets*/
         float: left;	/* will make list items horizontal(floats the list items) */ /*include clearfix class to clear all other page content down*/
-        padding: 0 15px 0 0; /* space between list-- clock wise--top side(15px) bottom left */
+       /* padding: 0 15px 0 0; /* space between list-- clock wise--top rt(15px) bottom left */
       }
-#nav li a:link, #nav li a:visited {	text-decoration: none;} /*removes the under line */
+#nav li a:link, #nav li a:visited {	text-decoration: none;  /*removes the under line */
+                                        padding:10px ; 
+                                        display: block;
+                                        border-right: 1px solid #EBD728;
+                                  } 
+#nav li a:hover{
+        background-color: #904B24;
+        color: yellow;
+}
+
+
 #body {   /*background: linear-gradient(to right,white, white , #7c7c7c); */
-         background: url(./screenshots/3.jpg) ;
+         background: url(./screenshots/3.jpg) top left repeat-y;
        }
 #body p {	line-height: 1.6em;} /* line spacing in paragraphs*/
 .main {	width: 600px;	float: left;}
