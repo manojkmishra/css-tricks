@@ -11,3 +11,5 @@
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/3.1.PNG) 
 3.2 **File(3.css)  : replace image in place of header and make it as clickable link**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/3.2.PNG)   
+4. **File(4.html,4.css)  : CSS box model -padding, margin (top, bottom), border**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/4.PNG)  

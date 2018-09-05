@@ -1,0 +1,20 @@
+div.experiment
+{       width:400px;
+        height:80px;
+        background-color: pink;
+
+        padding: 10px;
+        border: 10px solid grey;
+        margin-bottom: 10px;
+     
+
+}
+
+div.baseline
+{
+        width:400px;
+        height:80px;
+        background-color: blue;
+        margin-top:12px; /*  above its 10px margin-bottom-------so if two margins overlap---bigger ie 12px margin will be in effect */
+
+}
