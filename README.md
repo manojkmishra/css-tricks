@@ -13,3 +13,5 @@
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/3.2.PNG)   
 4. **File(4.html,4.css)  : CSS box model -padding, margin (top, bottom), border**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/4.PNG)  
+5. **File(5.html,5.css)  : using Float Property, using clearfix to clear unwanted space**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/5.PNG)  

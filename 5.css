@@ -28,7 +28,10 @@ div.footer
 }
 div.footer p{  margin:0; }
 
-p.clear-me
-{
-        clear: right;
+.clearfix:after 
+{ content: ""; 
+  display: table; 
+  clear: both; 
 }
+
+    
