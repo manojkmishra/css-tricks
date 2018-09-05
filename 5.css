@@ -10,6 +10,9 @@ div.container /* accessing as class */
         padding: 20px;
         border:2px solid #80aab7;
         background-color:  #FFF;
+        box-shadow: -5px -5px 5px rgba(128, 170, 183, .5);  /*1-horizontal offset 3px to right--2. verticle offset--3.blur value --4.color*/
+                                                  /*  last value .5 controls opacity */
+        -webkit-box-shadow: -5px -5px 5px rgba(128, 170, 183, .5)
 }
 div.infobox
 {
@@ -28,10 +31,15 @@ div.footer
 }
 div.footer p{  margin:0; }
 
-.clearfix:after 
+div.clearfix:after 
 { content: ""; 
   display: table; 
   clear: both; 
+}
+
+h1{
+text-shadow: 5px 3px 0px #ccc  /*1-horizontal offset 3px to right--2. verticle offset--3.blur value --4.color*/
+                                 /* if first two values negative--shadow goes to other side*/
 }
 
     
