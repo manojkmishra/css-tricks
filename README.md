@@ -17,3 +17,5 @@
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/5.PNG)  
 5.1 **File(5.html,5.css)  : text shadow, block shadow, rgb color**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/5.1.PNG)  
+6. **File(6.html,6.css)  : relative and absolute positions**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/6.PNG)  

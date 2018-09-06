@@ -1,0 +1,41 @@
+body 
+{	font-family: Arial, sans-serif;    
+        font-size: 15px;
+        line-height: 1.6em;
+        padding:20px;	
+        background-color: #c9e3ec;  /*outside container page color */   
+}
+h1
+{  position: relative; /* will not effect rest of the page---only heading will shift */
+   top : 5px;
+   left: 5px;
+}
+p
+{  position: relative; /* will not effect rest of the page---only para will shift */
+   top : 15px;
+   left: 5px;
+}
+div.container /* accessing as class */
+{       padding: 20px;
+        border:2px solid #80aab7;
+        background-color:  #FFF;
+        position: relative;  /* now this is added then image will have parent element as container */
+}
+img
+{      border: 2px solid #80aab7;
+       height: 200px;
+       width: 250px;
+       position: absolute; /* aligns it in relation to its parent element =entire page here--but if position:relative added in container--then parent=container */
+       bottom: -180px;
+       right: 20px;
+}
+div.footer
+{
+        font-weight: bold;
+        background-color:#80aab7;
+        color:#c9e3ec;
+        padding: 7px 20px;
+        
+}
+div.footer p{  margin:0; }
+
