@@ -19,3 +19,5 @@
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/5.1.PNG)  
 6. **File(6.html,6.css)  : relative and absolute positions**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/6.PNG)  
+7. **File(7.html,7.css)  : Understanding Typography(font,size,spacing)**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/7.PNG)  

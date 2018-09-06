@@ -1,0 +1,28 @@
+
+h1
+{  font-family:tahoma;
+   /* font-size: 20px;     */
+   /* font-size: 200%;   */
+   font-size: 2em;   /*  so px, % or em are used for font-size*/
+   font-weight: normal; /*  used for bold*/
+   font-style: italic;
+   letter-spacing: 3px;
+   word-spacing: 10px;
+   text-shadow:3px 3px 5px #333;
+   text-decoration: underline;
+   text-transform: uppercase;
+  
+}
+p
+{ 
+        line-height: 1.6em;
+        text-indent:50px;
+        text-align: right;
+
+}
+div.container /* accessing as class */
+{       padding: 20px;
+        border:2px solid #80aab7;
+        background-color:  #FFF;
+       
+}
