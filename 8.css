@@ -1,0 +1,24 @@
+/* border radius property */
+div.sample-rounded-box{
+    border-radius:10px;
+    height: 100px;
+    width:200px;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+div.only-bottom-rounded{
+    border-radius:0 0 10px 10px; /* left rt down-rt down-left  ---ie--clockwise */
+    height: 100px;
+    width:200px;
+    background-color: aquamarine;
+    margin-bottom: 10px; /* push below thing--- 10px */
+}
+div.circle {
+ 
+    height: 100px;
+    width:100px;
+    border-radius:50px; /*  for circle - radius should be height or width/2   */
+    background-color: aquamarine;
+    line-height: 100px; /* text ie---circle written inside--is inside now  */
+ 
+}
