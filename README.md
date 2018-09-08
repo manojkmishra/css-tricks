@@ -32,3 +32,6 @@
 
 8. **File(8.html,8.css)  : Border radius property**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/8.PNG)  
+
+8. **File(9.html,9.css)  : css dropdown navigation**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/9.PNG)  

@@ -1,0 +1,70 @@
+html{
+    background-color: #fff;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:"Myriad Pro" , Helvetica,Arial,sans-serif;
+    padding:0;
+    margin:0;
+}
+
+div#nav ul li /* navigation of list items */
+{
+    float:left; /* makes it horizontal instead of verticle list */
+    list-style:none; /* removes bullets in list items */
+   
+}
+div#nav ul li a /*nav links a(a=hyperlink)---give some spacings */
+{
+   padding: 7px 15px ; /* 7 pixel verticle and 15 px horizontal spacing */
+   display:block;
+   text-decoration: none; /* underline below goes */
+   color: #333;
+  /* background-color: #ebebeb;   not required any more as its in div#nav ul  */
+  border-right:2px solid #cfcfcf; /*  border for each li of ul*/
+}
+div#nav ul li a:hover,div#nav ul li:hover a  /*nav links or sublist -change background color to white when hover */
+{ background-color: #fff
+}
+div#nav ul li:hover ul li a /*hover--change all sublist grey  */
+{ background-color: #ebebeb
+}
+div#nav ul li:hover ul li a:hover /*hover--change particular sublist white    */
+{ background-color: #fff
+}
+
+div#nav ul li.last a{
+    border-right:none; /*removes border from last items */
+}
+div#nav ul ul /* second level navigation of list items */
+{   position: absolute; /* will remove any spacing in first level list */
+    left: -999em;  /* will shift second level to 999 so it wont be visible */
+   /* display:none ;  /*  can be used in place of above two lines */
+   
+}
+div#nav ul li:hover ul /* so ul- list---hover and it has ul--show */
+{ left:auto;  /* it will cancel out above left:-999em--so after hover--nav ul ul visible */
+
+}
+div#nav ul /*now whole list at location 0,0 on page--so that second level list comes just in place*/
+{
+    padding:0;
+    margin:0;
+    background-color: #ebebeb;
+}
+div#nav ul li ul li /* so second level list will not float--it will come verticle */
+{
+ float:none;
+}
+div#nav ul li ul li a /* so second level list will not float--it will come verticle */
+{
+ border-right:none; /* remove borders from second level list */
+}
+
+
+.clearfix:after /* will spread grey background to full page */
+{ content: ""; 
+  display: table; 
+  clear: both; 
+}
