@@ -33,8 +33,11 @@
 8. **File(8.html,8.css)  : Border radius property**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/8.PNG)  
 
-8. **File(9.html,9.css)  : css dropdown navigation**   
+9. **File(9.html,9.css)  : css dropdown navigation**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/9.PNG)  
 
-8. **File(10.html,10.css)  : css sprites(on icon hover and click image portion changes)**   
-![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/sprites.PNG)  
+10. **File(10.html,10.css)  : css sprites(on icon hover and click image portion changes)**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/sprites.jpg)  
+
+11. **File(11.html,11.css)  : z-index for div overlaping**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/11.jpg)  
