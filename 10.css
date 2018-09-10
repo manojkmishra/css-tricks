@@ -1,0 +1,32 @@
+span.icon a:link,
+span.icon a:visited{
+    display:block;
+    text-indent: -9999px;
+}
+
+span.home a:link,
+span.home a:visited{
+    width: 120px; /*show only left side 120 px of the image  */
+    height:120px; /*show only upper 120 px of the image  */
+    background: url(./screenshots/sprites.jpg) top left no-repeat;
+}
+span.home a:hover{
+    background-position: 0 -120px;  /* shift image up 120 px */
+}
+span.home a:active{
+    background-position: 0 -240px;  /* shift image up 120 px */
+}
+
+
+span.contact a:link,
+span.contact a:visited{
+    width: 60px;
+    height:60px;
+    background: url(./screenshots/sprites.jpg) -120px 0px no-repeat;
+}
+span.contact a:hover{
+    background-position: -120px -60px;  /* shift image up 120 px */
+}
+span.contact a:active{
+    background-position: -120px -120px;  /* shift image up 120 px */
+}
