@@ -1,0 +1,37 @@
+span.one{ /*display peroperty= inline */
+    font-weight: bold;
+    color:orange;
+    background-color: yellow;
+    /* display:inline;   ---by default span is inline so no use */
+    /*display:block; /* will show this thing in new line as a block--full width of page */
+    width: 200px; /*will be ignored for inline element  */
+    height:120px; /*will be ignored for inline element  */
+    margin:100px 50px; /*verticle then horizontal---verticle margin will be ignored for inline element  */
+    /* padding:100px 50px; /*  both will be applied and will even overlap below elements */
+}
+span.two{  /* display peroperty=inline-block  */
+    font-weight: bold;
+    color:red;
+    background-color: yellow;
+    display:inline-block;
+    width:110px;
+    text-align: center;
+    padding:5px;
+    margin-bottom:100px;
+
+}
+div{ /* display peroperty=block  */ /*heading h1 to h6; p =paragaraphs */
+    background-color: #81b3e6;
+    width: 60%;
+    padding:30px;
+    font-size:212%;
+    color:#FFF;
+    /*display:block;   /* not required as div is already a block level element*/
+}
+div p{
+    margin:0;
+}
+img{ /* display peroperty=inline    images, em by default are inline */
+    max-width:200px;
+    height:auto;
+}

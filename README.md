@@ -40,4 +40,7 @@
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/sprites.jpg)  
 
 11. **File(11.html,11.css)  : z-index for div overlaping**   
-![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/11.jpg)  
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/11.PNG)  
+
+12. **File(12.html,12.css)  : display property=inline, block, block-inline, none**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/12.PNG)  
