@@ -44,3 +44,6 @@
 
 12. **File(12.html,12.css)  : display property=inline, block, block-inline, none**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/12.PNG)  
+
+13. **File(13.html,13.css)  : flex box part 1**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/13.PNG)  

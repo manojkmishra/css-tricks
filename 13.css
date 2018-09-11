@@ -1,0 +1,64 @@
+.form-row{
+    padding:10px 0;
+    display:flex;
+    background-color:grey;
+
+}
+.form-row label{
+    padding-right:10px;
+}
+.form-row input{
+    flex:1;
+}
+/* section one finish */
+.column-layout{
+    max-width:1300px;
+    background-color:grey;
+    margin:40px auto 0 auto;
+    line-height:1.65;
+    padding:20px 50px;
+    display:flex;
+}
+.main-column{
+    flex:3;
+    order:2;
+}
+.sidebar-one{
+    flex:1;
+    order:1;
+}
+.sidebar-two{
+    flex:1;
+    order:3;
+}
+/*section two finish */
+.call-outs-container{
+    max-width:1400px;
+    margin:40px auto 0 auto;
+   /* display:flex;  --shifted in @media section 
+   /* align-items: stretch;
+   /* align-items: flex-start; /*will change height of flex as per content-from start-else default= stretch-equal height columns*/
+    /*align-items: flex-end; /*will change height of flex as per content-from end-else equal height columns*/
+   /* justify-content:space-between; */
+}
+.call-out{
+    padding:20px;
+    margin-bottom:20px;
+   /* margin-right: 20px; /* used with below .call-out:last-child */
+   /* width: 25%; /* same as flex-basis */
+    flex-basis: 25%;
+}
+@media(min-width:900px){ /*only if screen larger than 900px */
+    .call-outs-container{
+        display:flex;
+        justify-content:space-between;
+    }
+
+}
+/*
+.call-out:last-child{
+   margin-right:0; /*to remove 20px margin given above for last column }  */ 
+.call-out:nth-child(1){background-color: #c0dbe2;}
+.call-out:nth-child(2){background-color: #cdf1c3;}
+.call-out:nth-child(3){background-color: #ccb9ba;}
+/* part three finish    */
