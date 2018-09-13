@@ -49,5 +49,5 @@
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/13.PNG)  
 
 13. **File(14.html,14.css, 14.scss)  : SASS**   
-![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/14scss.PNG)  
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/14scss.png)  
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/14.PNG)  
