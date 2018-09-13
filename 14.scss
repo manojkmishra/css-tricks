@@ -1,0 +1,27 @@
+$primaryColor: #ec7705;
+body{
+    font-family:Helvetica, sans-serif;
+ 
+ }
+ a{
+   color:$primaryColor;
+ }
+ 
+.site-header nav{
+  ul{
+    padding:0;
+    margin:0;
+  }
+  li{
+    list-style:none;
+    float:left;
+    margin-right:10px;
+  }
+  a{
+    display:block;
+    padding:10px;
+    background-color:$primaryColor;
+    color:#FFF;
+    text-decoration:none;
+  }
+}
