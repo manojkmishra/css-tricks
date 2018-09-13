@@ -1,0 +1,54 @@
+
+<html >
+	<head>
+		<title>CSS Grids</title><!-- title -->
+		<style>
+		.wrapper > div{
+				background:#eee;
+				padding:1em;
+		}
+		.wrapper > div:nth-child(odd){
+           background: #ddd
+		}
+
+		.wrapper{
+			display:grid;
+			grid-template-columns: 40% 30% 30%; /*first column of 40%, 2nd-30, 3rd-30---4th again 40--and so on */
+		/*	grid-column-gap:1em;
+			grid-row-gap:1em; */
+			grid-gap:1em; /*space between all grids--row and column--can be used in place of above two lines  */
+		}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div>
+				anything aything anything aything anything aything anything aything
+				anything aything anything aything anything aything anything aything
+				anything aything anything aything anything aything anything aything
+				anything aything anything aything anything aything anything aything
+				anything aything anything aything anything aything anything aything
+				anything aything anything aything anything aything anything aything
+			</div>
+			<div>
+				something something something something something something 
+				something something something something something something
+				something something something something something something
+			</div>
+			<div>
+				anything aything anything aything anything aything anything aything
+				anything aything anything aything anything aything anything aything
+				anything aything anything aything anything aything anything aything
+				anything aything anything aything anything aything anything aything
+				anything aything anything aything anything aything anything aything
+				anything aything anything aything anything aything anything aything
+			</div>
+			<div>
+				something something something something something something 
+				something something something something something something
+				something something something something something something
+			</div>
+		</div>
+
+	</body>
+</html>
