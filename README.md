@@ -54,3 +54,6 @@
 
 15. **File(15.html)  : grid part 1**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/15.PNG)  
+
+16. **File(16.html)  : grid part 2(nested grids)**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/16.PNG)  
