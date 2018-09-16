@@ -1,0 +1,56 @@
+
+<html >
+	<head>
+		<title>CSS Grids</title><!-- title -->
+		<style>
+		.wrapper > div{
+				background:#eee;
+				padding:1em;
+		}
+		.wrapper > div:nth-child(odd){
+           background: #ddd
+		}
+
+		.wrapper{
+			display:grid;
+			grid-template-columns: 1fr 2fr 1fr; /* px and % can also be used but with % padding and margin issues will be a problem  */
+			grid-auto-rows:minmax(100px,auto);
+			grid-gap:1em;
+			justify-items:stretch; /*row width will be from start and as per content--can also be =center, end, stretch(default) */
+			align-items:stretch;/*column height will be from start and as per content--can also be =center, end, stretch(default) */
+		}
+		.box1{
+			/* align-self:start; */
+			grid-column:1/3; /* so box1--will occupy two places in column--from 1 to 3 */
+			grid-row:1/3;  /* so box1--will occupy two places in row--from 1 to 3 */
+		}
+		.box2{
+		  	align-self:start; 
+		    grid-column:3; /* so box2--will occupy third place in column */
+			grid-row:1/3;  /* so box2--will occupy two places in row */
+
+		}
+		.box3{
+			justify-self:end; 
+			grid-column:2/4; /* so box3--will occupy two places in column--from 2 to 4 */
+			grid-row:3;  /* so box3--will occupy thrid places in row */
+
+		}
+		.box4{
+			grid-column:1; /* so box4--column starts from 1 */
+			grid-row:2/4; /* so box4--row starts from 2 to 4 */
+			border:1px solid #333;
+		}
+
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class= "boxx box1"> Box1</div>
+			<div class= "boxx box2"> Box2</div>
+			<div class="boxx box3"> Box3</div>
+			<div class="boxx box4"> Box4</div>
+			
+		</div>
+	</body>
+</html>

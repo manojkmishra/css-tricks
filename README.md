@@ -57,3 +57,6 @@
 
 16. **File(16.html)  : grid part 2(nested grids)**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/16.PNG)  
+
+17. **File(17.html)  : grid part 3- alignment,overlap (unlike flexbox- grids are 2d, can overlap other grid)**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/17.PNG)  
