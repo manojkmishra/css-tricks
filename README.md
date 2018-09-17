@@ -60,3 +60,7 @@
 
 17. **File(17.html)  : grid part 3- alignment,overlap (unlike flexbox- grids are 2d, can overlap other grid)**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/17.PNG)  
+
+18. **File(18.html,18.css)  : Responsive(@media (min-width: 700px)) grid & flexbox**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/18.png)  
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/18_4.PNG)  
