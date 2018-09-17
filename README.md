@@ -64,3 +64,6 @@
 18. **File(18.html,18.css)  : Responsive(@media (min-width: 700px)) grid & flexbox**   
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/18.png)  
 ![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/18_4.PNG)  
+
+19. **File(19.html)  : Javascript to modify css style**   
+![enter image description here](https://github.com/manojkmishra/css-tricks/blob/master/screenshots/19.PNG)  
